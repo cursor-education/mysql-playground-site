@@ -4,4 +4,6 @@
 
 .DS_Store
 
+environment/mysql/data
+
 logs/*
