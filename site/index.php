@@ -25,8 +25,25 @@
   <![endif]-->
 </head>
 <body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="/"><span class="glyphicon glyphicon-book"></span> Database Playground</a>
+      </div>
+
+      <div id="navbar" class="navbar-collapse collapse">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="/">Home</a></li>
+          <li><a href="/signup.php">Sign up</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
   <div class="container">
-    container
+    <div class="row top30">
+      host: <?php var_dump($_SERVER); ?>
+    </div>
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
